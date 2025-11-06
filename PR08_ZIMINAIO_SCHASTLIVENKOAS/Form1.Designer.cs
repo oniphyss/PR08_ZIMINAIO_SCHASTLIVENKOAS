@@ -77,13 +77,14 @@ namespace PR08_ZIMINAIO_SCHASTLIVENKOAS
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(296, 355);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(177, 35);
             this.button1.TabIndex = 4;
             this.button1.Text = "Войти";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -99,6 +100,7 @@ namespace PR08_ZIMINAIO_SCHASTLIVENKOAS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Chartreuse;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
