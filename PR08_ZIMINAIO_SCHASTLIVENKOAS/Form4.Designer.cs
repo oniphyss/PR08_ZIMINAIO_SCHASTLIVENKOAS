@@ -148,38 +148,42 @@ namespace PR08_ZIMINAIO_SCHASTLIVENKOAS
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(102, 388);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(152, 40);
             this.button1.TabIndex = 11;
             this.button1.Text = "Добавить";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.button2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.Location = new System.Drawing.Point(324, 388);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(152, 40);
             this.button2.TabIndex = 12;
             this.button2.Text = "Удалить";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.Location = new System.Drawing.Point(529, 388);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(183, 40);
             this.button3.TabIndex = 13;
             this.button3.Text = "Редактировать";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Chartreuse;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
